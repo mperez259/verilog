@@ -6,7 +6,7 @@ This project implements an 8-bit **binary-to-BCD converter** using the
 **Double Dabble (Shift-and-Add-3)** algorithm in Verilog.
 
 ## Files
-- `bin2bcd.v` – top-level converter
+- `doubleDabble.v` – top-level converter
 - `add3.v` – Add-3 module
 - `tb_bin2bcd.v` – testbench for simulation
 
