@@ -2,6 +2,7 @@
 
 Implements the Clarke transformation to convert 3-phase current signals (a, b, c) 
 to 2-phase stationary reference frame (α, β).
+<img width="227" height="242" alt="image" src="https://github.com/user-attachments/assets/95102575-cd47-40d9-ba58-4bae009f0958" />
 
 ## Files
 - `Clarke_Transform.v` — Core transformation module  
