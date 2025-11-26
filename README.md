@@ -14,7 +14,7 @@ This implementation focuses on **hardware-level realization** of the FOC blocks 
 
 ---
 
-## ⚙️ Project Structure
+##Project Structure
 
 | Module | Description |
 |---------|--------------|
@@ -26,12 +26,10 @@ This implementation focuses on **hardware-level realization** of the FOC blocks 
 | `top_foc.v` | Top-level integration of all modules. |
 
 ---
+## Description
 
-## Features
-
-- Fully **modular Verilog** design  
 - Synthesizable on **Xilinx Vivado**  
-- Tested for **fixed-point arithmetic precision**  
+- Tested for **fixed-point arithmetic precision** and pipelined for better timing  
 - Compatible with **NEXYS A7 (Artix-7)** FPGA  
 - Core transforms verified with MATLAB/Simulink reference models  
 
